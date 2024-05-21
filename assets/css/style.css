@@ -14889,9 +14889,7 @@ button {
 .template-color-3 .img-hover_effect a:after {
   background: #b76e79;
 }
-.template-color-3 .main-slider .slider-content span {
-  color: #b76e79;
-}
+
 .template-color-3 .main-slider .slick-arrow {
   color: #b76e79;
 }
@@ -15489,12 +15487,12 @@ button.li-btn:hover {
 }
 
 .bg-5 {
-  background-image: url("../images/slider/5.jpg");
+  background-image: url("../img/slider/5.jpg");
 }
 
 .bg-6,
 .bg-7 {
-  background-image: url("../images/slider/6.jpg");
+  background-image: url("../img/slider/6.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -15514,7 +15512,7 @@ button.li-btn:hover {
 }
 
 .bg-7 {
-  background-image: url("../images/slider/7.jpg");
+  background-image: url("../img/slider/6.jpg");
 }
 
 /* ---Hiraola's Slider Progress Bar--- */
@@ -15901,7 +15899,9 @@ button.li-btn:hover {
     transform: translateX(0);
   }
 }
-
+.template-color-3 .main-slider .slider-content span {
+  color: #b76e79 !important;
+}
 
 /* slider end */
 
